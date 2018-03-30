@@ -9,7 +9,6 @@ class ControllerClaim
     {
         require_once('views/viewAddClaim.php');
         $this->_claimsManager = new ClaimsManager();
-        //$this->_claimsManager->addClaim();
     }
 
     /**
